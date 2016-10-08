@@ -1,0 +1,24 @@
+footer {
+    padding:8px 0;
+    background-color: #141414;
+    bottom:0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: #EEC643;
+}
+
+.fa-stack{
+    margin-right: 10px;
+}
+
+.copyright {
+    text-align: right;
+}

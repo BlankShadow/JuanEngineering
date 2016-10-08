@@ -1,0 +1,678 @@
+/*
+ * Start Bootstrap - Landing Page (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+
+a{
+    color: #EEC643;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.navbar{
+    margin-bottom: 1px;
+    border-radius: 0px;
+}
+
+.navbar-default{
+    background-color: black;
+    width: 100%;
+    height: 63px;
+    border: none;
+}
+
+.navbar-brand{
+    padding-left: 80px;
+    padding-top: 5px;
+}
+
+.navbar-right a{
+    margin-top: 8px;
+    margin-right: 10px;
+    color: white;
+}
+
+.navbar-right .button{
+    color: white;
+}
+
+.navbar-right .button:hover{
+    color: #EEC643;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+}
+
+.navbar-nav a{
+    margin-top: 8px;
+    margin-right: 10px;
+    color: white;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+.contact {
+/*    padding: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background-size: cover;*/
+    padding: 100px;
+    text-align: center;
+    color: #f8f8f8;
+    background-color: #EEF0F2;
+    height: 1000px;
+}
+
+.contact h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+
+
+.form-group div,
+.input-group{
+    align-items: center;
+    width: 280px;
+    margin: 0 auto;
+}
+
+.form-control{
+    /*margin: 15px;*/
+    text-align: center;
+}
+
+.contact .btn-md{
+    background: #EEC643;
+    margin-top: 15px;
+}
+
+
+@media(max-width:767px) {
+    .contact h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+}
+
+
+#logo {
+    width: 80px;
+    height: 50px;
+
+}
+
+.button{
+    text-transform: uppercase;
+    color: #EEC643;
+    font-size: 16px;
+}
+
+#login{
+    padding-top: 60px;
+}
+
+#login .form-wrap {
+    width: 30%;
+    margin: 0 auto;
+}
+
+#login form{
+    padding-top: 25px;
+}
+
+#login h1 {
+    color: #1fa67b;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+
+#login .linebox{
+    background-color: #EEC643;
+    width: 40px;
+    height: 10px;
+
+}
+
+#login .form-group {
+    margin-bottom: 25px;
+}
+
+#login .btn.btn-custom {
+    font-size: 14px;
+    margin-bottom: 20px;
+
+}
+
+
+
+#login .ps{
+    font-size: 13px;
+    text-align: center;
+    display: block;
+}
+
+
+#login .forgot a{
+    font-size: 12px;
+    text-align: right;
+    color: black;
+}
+
+#login .forgot a:hover{
+    color: #EEC643;
+}
+
+#login .header{
+    font-size: 28px;
+    font-weight: bolder;
+    color: #EEC643;
+    text-align: left;
+}
+
+#login .checkbox {
+    margin-bottom: 20px;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+#login .checkbox.show:before {
+    content: '\e013';
+    color: #EEC643;
+    font-size: 17px;
+    margin: 1px 0 0 3px;
+    position: absolute;
+    pointer-events: none;
+    font-family: 'Glyphicons Halflings';
+}
+#login .checkbox .character-checkbox {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+    display: inline-block;
+}
+#login .checkbox .label {
+    color: #6d6d6d;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+#login .captcha{
+    width: 103%
+}
+f
+#login .reset{
+    margin-bottom: 100px;
+}
+
+.label{
+    color: black;
+}
+
+#login .ps a{
+    color: #EEC643;
+}
+
+/* enable absolute positioning */
+#login .inner-addon { 
+    position: relative; 
+}
+
+/* style icon */
+#login .inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+#login .left-addon .glyphicon  { left:  0px;}
+#login .right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+#login .left-addon input  { padding-left:  30px; }
+#login .right-addon input { padding-right: 30px; }
+/*    --------------------------------------------------
+    :: Inputs & Buttons
+    -------------------------------------------------- */
+.form-control {
+    color: #212121;
+}
+.btn-custom {
+    color: #fff;
+    background-color: #EEC643;
+}
+.btn-custom:hover,
+.btn-custom:focus {
+    color: #fff;
+}
+
+#myCarousel .carousel-caption{
+    padding-bottom: 30px;
+}
+
+#myCarousel .btn-md{
+    background: #EEC643;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 10px, 20px, 10px, 20px;
+}
+
+#myCarousel .btn-md:hover{
+    color: black;
+}
+
+
+.profile-section-a {
+    margin-top: 50px;
+    padding: 10px 0;
+    margin-bottom: 50px;
+    padding-right: 30px;
+    padding-left:30px;
+
+}
+
+
+.profile-section-a div{
+    padding-bottom: 20px;
+}
+
+.profile-section-a img{
+    width: 150px;
+    height: 150px;
+}
+
+.line-break div,
+hr{
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#verify {
+    padding-top: 200px;
+}
+
+#verify .form-wrap{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid #EEC643;
+    border-radius: 5px;
+    padding: 15px 20px 10px 20px;
+}
+
+#verify .p-bigger{
+    font-size: 15px;
+    font-weight: normal;
+}
+
+#verify span{
+    font-weight: bold;
+}
+
+#verify p{
+    font-weight: normal;
+}
+
+#what {
+    padding-top: 100px;
+}
+
+#what .header{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: #EEC643;
+    padding-bottom: 20px;
+}
+
+#what .user-title{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#what .container{
+    width: 65%;
+    /*border: 2px solid #EEC643;*/
+}
+
+#what p{
+    font-weight: normal;
+}
+
+#what .row{
+    margin-bottom: 30px;
+}
+
+.radiobtn input,
+.col-sm-1{
+    align-items: right;
+    text-align: right;
+}
+
+#what .btn-md {
+    background: #141414;
+    margin-top: 15px;
+    margin-left: 80%;
+    color: white;
+}
+
+#what .btn-md:hover{
+    color: #EEC643;
+}
+
+#more {
+    padding-top: 80px;
+}
+
+#more .header{
+    font-weight: bold;
+    font-size: 30px;
+    color: #EEC643;
+}
+
+#more .red{
+    color: red;
+    margin-left: 5px;
+}
+
+#more .user-title{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#more .container{
+    width: 65%;
+    /*border: 2px solid #EEC643;*/
+}
+
+#more p{
+    font-weight: normal;
+}
+
+#more .row{
+    margin-bottom: 30px;
+}
+
+#more .btn-md {
+    background: #EEC643;
+    margin-top: 250px;
+    align-items: right;
+    text-align: right;
+}
+
+#more .btn-md:hover{
+    font-weight: bold;
+}
+
+#more .btn-primary{
+    background: #EEC643;
+    margin-top: 15px;
+    border-color: #EEC643;
+}
+
+#more .btn-primary:hover{
+    font-weight: bold;
+
+}
+
+#more .form{
+    width: 210px;
+    height: 34px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#more .input-group-btn{
+    margin-left: 15px;
+    text-align: center;
+
+}
+
+#more textarea{
+    height: 115px;
+}
+
+#more .input-group{
+    margin-bottom: 15px;
+}
+
+#more .centerline {
+    height: 220px;
+    width: 1px;
+    background-color: lightgray;
+}
+
+
+#more .type-title{
+    background: #EEC643;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+}
+
+
+#exp .helper{
+    font-weight: normal;
+    font-size: 14px;
+    font-style: italic;
+
+}
+
+#more .type-title{
+    background: #EEC643;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: white;
+    padding: 20px;
+}
+
+#more .choice{
+    font-weight: normal;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+#more .btn-md {
+    background: #141414;
+    margin-top: 15px;
+    margin-left: 80%;
+    color: white;
+}
+
+#more .btn-md:hover{
+    color: #EEC643;
+}
+
+#exp {
+    padding-top: 80px;
+}
+
+
+#exp .header{
+    font-weight: bold;
+    font-size: 30px;
+    color: #EEC643;
+
+}
+
+#exp .category{
+    margin-top: 30px;
+}
+
+#exp .row{
+   /*margin-top:40px; */
+    padding: 0 5px;
+}
+
+#exp .container{
+    width: 65%;
+    overflow: auto;
+    /*border: 2px solid #EEC643;*/
+}
+
+#exp .clickable{
+    cursor: pointer;   
+}
+
+#exp .panel-heading span {
+    margin-top: -20px;
+    font-size: 15px;
+}
+
+#exp .panel-body{
+    padding: 20px;
+}
+
+#exp .panel-heading,
+#exp .panel-title{
+    background-color: #EEC643;
+    color: white;
+    text-transform: uppercase;
+}
+
+#exp .panel{
+    border: 1px solid #EEC643;
+}
+
+#exp .choice{
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+#exp .btn-md {
+    background: #141414;
+    margin-top: 15px;
+    margin-left: 750px;
+    color: white;
+}
+
+#exp .btn-md:hover{
+    color: #EEC643;
+}
+
+#set .label{
+    color: gray;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+#set {
+    padding-top: 40px;
+}
+
+#set .user-title{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#set .container{
+    width: 65%;
+    /*border: 2px solid #EEC643;*/
+}
+
+#set .header{
+    font-weight: bold;
+    font-size: 22px;
+    color: #141414;
+    padding-top: 25px;
+}
+
+#set hr{
+    width: 700px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#set .form-control{
+    width: 250px;
+    margin-left: 20px;
+}
+
+#set .input-group{
+    width: 800px;
+    padding: 2px;
+
+}
+
+#set .btn-md {
+    background: #141414;
+    margin-left: 10%;
+    color: white;
+}
+
+#set .btn-md:hover{
+    color: #EEC643;
+}
+
+#set .input-group{
+    margin-bottom: 10px;
+}
+
+
